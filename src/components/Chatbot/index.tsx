@@ -119,7 +119,7 @@ const Chatbot = () => {
             <p>
               Have a look at my
               <a
-                href="https://drive.google.com/file/d/1Neh66oJyiG87217mAF55pRB-Lr48LvYK/view?usp=sharing"
+                href="https://drive.google.com/file/d/1r_HbQj2LPL2zJ-pHA26_3vJtDanI1lSU/view?usp=sharing"
                 className="link-btn"
               >
                 resume💾
