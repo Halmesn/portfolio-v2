@@ -8,6 +8,10 @@ import { Link } from 'react-router-dom';
 import { useAnimation } from 'framer-motion';
 
 import Hotflix from '/images/grid/hotflix.jpg';
+import Ocean from '/images/grid/ocean.jpg';
+import Jungle from '/images/grid/jungle.jpg';
+import Desert from '/images/grid/desert.jpg';
+import Beach from '/images/grid/beach.jpg';
 
 const Grid = () => {
   const controls = useAnimation();
@@ -108,7 +112,13 @@ const Grid = () => {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem5}
-        ></styled.GridItemBg>
+        >
+          <img
+            src={Beach}
+            alt="beach"
+            style={{ height: '100%', objectFit: 'cover' }}
+          />
+        </styled.GridItemBg>
         <Link to="#">
           <div className="grid__link grid__item-content">
             <styled.GridItemInner
@@ -116,8 +126,8 @@ const Grid = () => {
               initial="hidden"
               variants={gridVariants.gridText}
             >
-              <h3 className="grid__item-title">project</h3>
-              <span className="grid__item-desc">Under Construction</span>
+              <h3 className="grid__item-title-black">project</h3>
+              <span className="grid__item-desc-black">Under Construction</span>
             </styled.GridItemInner>
           </div>
         </Link>
@@ -129,7 +139,13 @@ const Grid = () => {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem6}
-        ></styled.GridItemBg>
+        >
+          <img
+            src={Desert}
+            alt="desert"
+            style={{ height: '100%', objectFit: 'cover' }}
+          />
+        </styled.GridItemBg>
         <Link to="#">
           <div className="grid__link grid__item-content">
             <styled.GridItemInner
@@ -137,8 +153,8 @@ const Grid = () => {
               initial="hidden"
               variants={gridVariants.gridText}
             >
-              <h3 className="grid__item-title">project</h3>
-              <span className="grid__item-desc">Under Construction</span>
+              <h3 className="grid__item-title-black">project</h3>
+              <span className="grid__item-desc-black">Under Construction</span>
             </styled.GridItemInner>
           </div>
         </Link>
@@ -150,7 +166,13 @@ const Grid = () => {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem7}
-        ></styled.GridItemBg>
+        >
+          <img
+            src={Ocean}
+            alt="ocean"
+            style={{ height: '100%', objectFit: 'cover' }}
+          />
+        </styled.GridItemBg>
         <Link to="#">
           <div className="grid__link grid__item-content">
             <styled.GridItemInner
@@ -158,8 +180,8 @@ const Grid = () => {
               initial="hidden"
               variants={gridVariants.gridText}
             >
-              <h3 className="grid__item-title">project</h3>
-              <span className="grid__item-desc">Under Construction</span>
+              <h3 className="grid__item-title-black">project</h3>
+              <span className="grid__item-desc-black">Under Construction</span>
             </styled.GridItemInner>
           </div>
         </Link>
@@ -171,7 +193,13 @@ const Grid = () => {
           animate={controls}
           initial="hidden"
           variants={gridVariants.gridItem8}
-        ></styled.GridItemBg>
+        >
+          <img
+            src={Jungle}
+            alt="jungle"
+            style={{ height: '100%', objectFit: 'cover' }}
+          />
+        </styled.GridItemBg>
         <Link to="#">
           <div className="grid__link grid__item-content">
             <styled.GridItemInner

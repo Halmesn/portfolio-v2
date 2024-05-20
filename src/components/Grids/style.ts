@@ -41,6 +41,13 @@ export const Grid = styled.div<GridsProps>`
     font-size: 2.4rem;
     letter-spacing: 0.15rem;
     color: white;
+
+    &-black {
+      font-weight: normal;
+      font-size: 2.4rem;
+      letter-spacing: 0.15rem;
+      color: black;
+    }
   }
 
   .menu-trigger {
@@ -58,6 +65,25 @@ export const Grid = styled.div<GridsProps>`
     font-size: 1.6rem;
     margin: 0.5rem 0 0 0;
     color: white;
+
+    &-black {
+      font-size: 1.6rem;
+      margin: 0.5rem 0 0 0;
+      color: black;
+
+      &.no-after {
+        ::after {
+          content: '';
+        }
+      }
+
+      &::after {
+        content: '...';
+        position: relative;
+        display: block;
+        font-size: 1.75rem;
+      }
+    }
 
     &.no-after {
       ::after {
