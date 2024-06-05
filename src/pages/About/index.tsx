@@ -47,8 +47,8 @@ const About = () => {
         <h2>About me</h2>
         <p>
           Hello! My name is Adrian, I'm a&nbsp;
-          <span className="line">front-end developer</span> chilling in
-          Alstonville Australia🦘, while working remotely for Komatsu Mining👨‍💻
+          <span className="line">front-end developer</span> chilling in Brisbane
+          Australia🦘, while working for Komatsu Mining👨‍💻
         </p>
         <span
           className="scroll"
